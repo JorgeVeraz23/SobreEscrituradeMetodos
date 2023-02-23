@@ -8,6 +8,10 @@ package com.mycompany.ejerciciocarrera;
  *
  * @author USER
  */
-public abstract class Animal extends SerVivo{
+public class Planta extends SerVivo{
     
+    @Override
+    public void alimentarse(){
+            System.out.println("la planta se alimenta atraves de la fotosintesis");
+    }
 }

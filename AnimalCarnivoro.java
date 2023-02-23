@@ -8,6 +8,10 @@ package com.mycompany.ejerciciocarrera;
  *
  * @author USER
  */
-public abstract class Animal extends SerVivo{
+public class AnimalCarnivoro extends Animal{
     
+    @Override
+    public void alimentarse(){
+        System.out.println("El animal carnivoro se alimenta de carne");
+    }
 }

@@ -1,6 +1,6 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.ejerciciocarrera;
 
@@ -9,16 +9,11 @@ package com.mycompany.ejerciciocarrera;
  * @author USER
  */
 public class Principal {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        Persona persona = new Persona();
-        Perro perro = new Perro();
+    public static void main(String[] args){
+        Planta planta = new Planta();
+        AnimalCarnivoro animalC = new AnimalCarnivoro();
         
-        perro.comer();
-        persona.comer();
-        
+        planta.alimentarse();
+        animalC.alimentarse();
     }
 }
